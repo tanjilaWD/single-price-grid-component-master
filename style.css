@@ -1,0 +1,153 @@
+:root{
+    --fontFamily:"Karla", serif;
+
+    --cyanColor: hsl(179, 62%, 43%);
+    --brightYellow: hsl(71, 73%, 54%);
+    --lightGray: hsl(204, 43%, 93%);
+    --grayishBlue: hsl(218, 22%, 67%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body{
+    background-color: var(--grayishBlue);
+    height:100% ;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: var(--fontFamily);
+    
+
+}
+main{
+    background-color: var(--lightGray);
+    /* height: 540px; */
+    height: 470px;
+    width: 630px;
+    margin-top: 80px;
+  
+   border-radius: 10px;
+   
+}
+.container1{
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 70px;
+
+}
+
+h1{
+    color: var(--cyanColor);
+    text-align: left;
+    font-size: 25px;
+    font-weight: 700;
+
+
+}
+
+.head{
+    margin-top: 18px;
+    color: var(--brightYellow);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.head2{
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--grayishBlue);
+}
+
+.container{
+    background-color: var(--cyanColor);
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.container{
+   width: 100%; 
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   justify-content: space-around;
+   padding-bottom: 40px;
+   border-radius: 0px 0px 10px 10px;
+
+} 
+.con1{
+    width: 50%;
+   
+   }
+
+.con1 h2{
+    color: white;
+    font-weight: 500;
+    padding-bottom: 15px;
+    margin-top: -70px;
+
+}
+.con1 p.price span{
+    font-size: 14px;
+    margin-left: 4px;
+  vertical-align: middle;
+    color: rgb(216, 210, 210);
+    font-weight: 400;
+    
+}  
+
+.price{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.con1 .para{
+    padding-top: 6px;
+    padding-bottom: 20px;
+    color: white;
+    font-weight: 400;
+}
+
+.con1 button{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--brightYellow);
+    color: white;
+    font-weight: 600;
+    margin-top: 10px;
+    box-shadow:0px 0px 10px 1px rgb(111, 180, 185) ;
+
+}
+.con2{
+    width: 50%;
+   
+}
+.con2 h2{
+    margin-top: 20px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.con2 p{
+    color: white;
+    margin-right: 100px;
+    line-height:25px ;
+   font-size: 18px;
+}
